@@ -1,4 +1,4 @@
-def missing_numbers(numbers,positions,column,row,grid)
+def missing_number(numbers,positions,column,row,grid)
     pass
 def add_number_to_cell(number,position,grid):
     pass
