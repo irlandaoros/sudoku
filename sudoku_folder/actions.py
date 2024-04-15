@@ -6,4 +6,7 @@ def erase_number(eraser,number,position,grid):
     print ("erase number")
 def color_number(color,position):
     print ("color number")
-
+def if_win (change board):
+    print ("if_win")
+    
+    
