@@ -1,9 +1,9 @@
 def add_number_to_cell(number,position,grid):
-    pass
+    print ("add number to cell")
 def change_number(number,position,grid):
-    pass
+    print ("change number")
 def erase_number(eraser,number,position,grid):
-    pass
+    print ("erase number")
 def color_number(color,position):
-    pass
+    print ("color number")
 
