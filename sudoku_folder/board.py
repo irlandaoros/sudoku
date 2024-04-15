@@ -1,8 +1,9 @@
 def print_board(numbers_and_spaces):
-  pass
+  print ("print_board")
 def erase(eliminate_numbers,chose):
-  pass
+  print ("erase")
 def create_new_board():
-  pass
+  print (create_new_board")
 def reset_game(new_board):
-  pass 
+  print ("reset_game")
+  
