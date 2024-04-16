@@ -31,7 +31,7 @@ while True:
     position=None
     color_number (color,position)
   elif command == "if win":
-    change board=None 
+    change_board=None 
   else:
     print("I did not understand that command")
   
