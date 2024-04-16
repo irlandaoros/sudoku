@@ -6,7 +6,7 @@ from board import erase
 from board import print_new_board 
 
 with open('README.md', 'r') as f:
-  print (f.read())
+   print (f.read())
   
 while True:
   command = input("Enter a command: ")
