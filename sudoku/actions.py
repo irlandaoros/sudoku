@@ -8,5 +8,3 @@ def color_number(color,position):
     print ("color number")
 def if_win (change board):
     print ("if_win")
-    
-    
