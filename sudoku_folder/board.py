@@ -34,6 +34,6 @@ def create_new_board():
            [" ", " ", " ", " ", " ", " ", " ", " ", " "],
            [" ", " ", " ", " ", " ", " ", " ", " ", " "]]
   return board
-  print (create new board")
+  print ("create new board")
 def reset_game (new_board):
   print ("reset game")
