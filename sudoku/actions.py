@@ -4,5 +4,5 @@ def change_number(number,position,grid):
     print ("change number")
 def erase_number(eraser,number,position,grid):
     print ("erase number")
-def if_win (change board):
+def if_win (board):
     print ("if_win")

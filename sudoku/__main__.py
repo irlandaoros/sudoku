@@ -4,6 +4,7 @@ from actions import erase_number
 from actions import color_number 
 from board import erase 
 from board import print_new_board 
+from actions import change_number
 
 with open('README.md', 'r') as f:
    print (f.read())
