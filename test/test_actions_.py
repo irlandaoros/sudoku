@@ -48,5 +48,3 @@ def test_if_win():
   board = create_new_board()
   add_number_to_cell("1", [1, 1], board)
   if_win ()
-    
-hola
