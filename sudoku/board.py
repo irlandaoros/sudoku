@@ -1,4 +1,4 @@
-def print_board (numbers_and_spaces):
+def print_board (board):
   print(
     f"""
     {board[0][0]} | {board[0][1]} | {board[0][2]} | {board[0][3]} | {board[0][4]} | {board[0][5]} | {board[0][6]} | {board[0][7]} | {board[0][8]}
@@ -13,11 +13,11 @@ def print_board (numbers_and_spaces):
     ----------
     {board[5][0]} | {board[5][1]} | {board[5][2]} | {board[5][3]} | {board[5][4]} | {board[5][5]} | {board[5][6]} | {board[5][7]} | {board[5][8]}
     ----------
-    {board[6][0]} | {board[6][1]} | {board[6][2]} | {board[6][3]} | {board[6][4]} | {board[6][5]} | {board[7][6]} | {board[6][7]} | {board[6][8]}
+    {board[6][0]} | {board[6][1]} | {board[6][2]} | {board[6][3]} | {board[6][4]} | {board[6][5]} | {board[6][6]} | {board[6][7]} | {board[6][8]}
     ----------
-    {board[7][0]} | {board[7][1]} | {board[7][2]} | {board[7][3]} | {board[7][4]} | {board[7][5]} | {board[8][6]} | {board[7][7]} | {board[7][8]}
+    {board[7][0]} | {board[7][1]} | {board[7][2]} | {board[7][3]} | {board[7][4]} | {board[7][5]} | {board[7][6]} | {board[7][7]} | {board[7][8]}
     ----------
-    {board[8][0]} | {board[8][1]} | {board[8][2]} | {board[8][3]} | {board[8][4]} | {board[8][5]} | {board[9][6]} | {board[8][7]} | {board[8][8]}
+    {board[8][0]} | {board[8][1]} | {board[8][2]} | {board[8][3]} | {board[8][4]} | {board[8][5]} | {board[8][6]} | {board[8][7]} | {board[8][8]}
     """
   )
   print ("print board")
