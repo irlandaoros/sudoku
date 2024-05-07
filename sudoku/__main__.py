@@ -20,21 +20,18 @@ while True:
     position=input("Enter a position")
     add_number_to_cell (number,position,grid)
   elif command == "change number":
-    number=None
-    position=None
+    number=input("Enter a new number: ")
+    position=input("Enter the position of the number to change (row, column): ")
     change_number (number,position,grid)
   elif command == "erase number":
-    eraser=None
-    number=None
-    position=None
+    eraser=input("Enter the position of the number to erase (row, column): ")
     erase_number (eraser,number,position,grid)
-  elif command == "color number":
-    color=None
-    position=None
-    color_number (color,position)
   elif command == "if win":
-    change_board=None 
-  else:
-    print("I did not understand that command")
-  
+            if_win(grid)
+            break  # End the game if the player wins
+else:
+    print("Invalid command. Please try again.")
+
+
+ 
   
