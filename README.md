@@ -4,8 +4,5 @@
  María Irlanda García Oros 
  Bernardo Quintero Román 
 
- INSTRUCTIONS 
- Enter "add number to cell"
- Put a number 
- Enter the coordinates 
+ 
  
